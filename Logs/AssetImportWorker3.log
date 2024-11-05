@@ -1,0 +1,1353 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.13f1 (5f90a5ebde0f) revision 6262949'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.17763) 64bit EnterpriseS' Language: 'en' Physical Memory: 32695 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/bcorwin/Desktop/UnityVREyeTracker
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+56645
+Successfully changed project path to: C:/Users/bcorwin/Desktop/UnityVREyeTracker
+C:/Users/bcorwin/Desktop/UnityVREyeTracker
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12668] Host "[IP] 10.66.139.129 [Port] 0 [Flags] 2 [Guid] 1934178462 [EditorId] 1934178462 [Version] 1048832 [Id] WindowsEditor(7,OISIT-IST355A07) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12668] Host "[IP] 10.66.139.129 [Port] 0 [Flags] 2 [Guid] 1934178462 [EditorId] 1934178462 [Version] 1048832 [Id] WindowsEditor(7,OISIT-IST355A07) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 68.86 ms, found 16 plugins.
+Preloading 3 native plugins for Editor in 4.53 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/bcorwin/Desktop/UnityVREyeTracker/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   NVIDIA
+    VRAM:     8072 MB
+    Driver:   31.0.15.3713
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.019918 seconds.
+- Loaded All Assemblies, in  1.386 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 761 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.278 seconds
+Domain Reload Profiling: 2658ms
+	BeginReloadAssembly (337ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (119ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (355ms)
+	LoadAllAssembliesAndSetupDomain (548ms)
+		LoadAssemblies (334ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (542ms)
+			TypeCache.Refresh (540ms)
+				TypeCache.ScanAssembly (514ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1278ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1151ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (951ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (117ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.090 seconds
+Refreshing native plugins compatible for Editor in 34.91 ms, found 16 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.1.1\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x00084] in .\Library\PackageCache\com.unity.xr.oculus@4.1.1\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7aeb7d7a52d04045b8a1c734633fa931>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.243 seconds
+Domain Reload Profiling: 2320ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (780ms)
+		LoadAssemblies (472ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (418ms)
+			TypeCache.Refresh (337ms)
+				TypeCache.ScanAssembly (307ms)
+			ScanForSourceGeneratedMonoScriptInfo (49ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (1243ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (958ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (669ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 61.69 ms, found 16 plugins.
+Preloading 3 native plugins for Editor in 0.34 ms.
+Unloading 7744 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 143 unused Assets / (99.0 KB). Loaded Objects now: 8203.
+Memory consumption went from 286.4 MB to 286.3 MB.
+Total: 10.818700 ms (FindLiveObjects: 0.848500 ms CreateObjectMapping: 0.884600 ms MarkObjects: 8.812300 ms  DeleteObjects: 0.269900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2030052.027801 seconds.
+  path: Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Gray_Left.prefab
+  artifactKey: Guid(8c5aedbedb31848488e8007c3432c990) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Gray_Left.prefab using Guid(8c5aedbedb31848488e8007c3432c990) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'af5e3d5c82eaf6f22f82927e4aa67772') in 0.241004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Colorful_Left.prefab
+  artifactKey: Guid(820280a7a7d593e43a6a724a654c4ac9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Colorful_Left.prefab using Guid(820280a7a7d593e43a6a724a654c4ac9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e9aa780bd9d8860e4a50fb0a2d440620') in 0.007617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Sports/Tennis_Racket_Blue.prefab
+  artifactKey: Guid(53024bf1455f2604283bf60ea2f0ca2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Objects/Sports/Tennis_Racket_Blue.prefab using Guid(53024bf1455f2604283bf60ea2f0ca2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '73dd8ed61671f54c99644bd1277d7ded') in 0.014381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.003864 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Sports/Cricket_Bat_Blue.prefab
+  artifactKey: Guid(7a54361820b3f824fb39245cfe88d864) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Objects/Sports/Cricket_Bat_Blue.prefab using Guid(7a54361820b3f824fb39245cfe88d864) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c685777c72ae426e3c8171272c09e74d') in 0.014090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Sports/PingPong_Ball.prefab
+  artifactKey: Guid(477529b6fb2946c41bcab09b8a0634db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Objects/Sports/PingPong_Ball.prefab using Guid(477529b6fb2946c41bcab09b8a0634db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a5f161495add04dbfdd6c81775fd159') in 0.012229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Course Library/_Prefabs/VR/Reticles/VR_Reticle_Square.prefab
+  artifactKey: Guid(493691fe396bc5c40900e8a234c5c60e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/VR/Reticles/VR_Reticle_Square.prefab using Guid(493691fe396bc5c40900e8a234c5c60e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b9b9a8aba508b741cf2655c52eae892f') in 0.030449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Yellow_Left.prefab
+  artifactKey: Guid(8ed7c4661c5c246c3b215268ec9f5cc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Yellow_Left.prefab using Guid(8ed7c4661c5c246c3b215268ec9f5cc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b65fd8082375156f0ab4bc4182b0509f') in 0.008332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Yellow_Right.prefab
+  artifactKey: Guid(cd26f816dc3274e05bdcd4f2e79fe1ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Yellow_Right.prefab using Guid(cd26f816dc3274e05bdcd4f2e79fe1ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '78cb7c6a4dcc5bb34571f5122b3d2266') in 0.009635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Course Library/_Prefabs/Plants/Plant_B.prefab
+  artifactKey: Guid(8085ccd0a01eb441da3fd9ab66229f33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Plants/Plant_B.prefab using Guid(8085ccd0a01eb441da3fd9ab66229f33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ac08424867e73df07d5fbbe03f1d66aa') in 0.011393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Sports/PingPong_Paddle_Red.prefab
+  artifactKey: Guid(c8f3c4914ed09be4999d3eb1e3a7b5f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Objects/Sports/PingPong_Paddle_Red.prefab using Guid(c8f3c4914ed09be4999d3eb1e3a7b5f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eddc48fdfc041009182231155e6f703f') in 0.012063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Course Library/_Prefabs/Plants/Plant_A.prefab
+  artifactKey: Guid(e8f8deb5a30624e479e669f8e64613b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Plants/Plant_A.prefab using Guid(e8f8deb5a30624e479e669f8e64613b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd43f784ffefa8f3ad68538a7cf08ee70') in 0.011779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.005304 seconds.
+  path: Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Primitive.prefab
+  artifactKey: Guid(66b7de02017114b29a1237e13b5d0f53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Primitive.prefab using Guid(66b7de02017114b29a1237e13b5d0f53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '70b200a93f559f41e726e8c2d0fe5692') in 0.009650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Chair_Modern_Black.prefab
+  artifactKey: Guid(7b3726eaddf29ab41b207a350a3905cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Modern_Black.prefab using Guid(7b3726eaddf29ab41b207a350a3905cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'db8f1d1093f76a96cc5634eef1c638d9') in 0.014643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Colorful_Right.prefab
+  artifactKey: Guid(233d735817dff43da9b78129b58d66fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Colorful_Right.prefab using Guid(233d735817dff43da9b78129b58d66fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3a4cf0c645e1612d457b78b2989bc59e') in 0.010966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Rug_Oval_Purple.prefab
+  artifactKey: Guid(2a0989c512f34104c9d5ca8e832c0b21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Rug_Oval_Purple.prefab using Guid(2a0989c512f34104c9d5ca8e832c0b21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a541e62acfd8aa55a15ede81e982271c') in 0.012022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Sports/Tennis_Ball_Green.prefab
+  artifactKey: Guid(d0c00082fbae52742bbd03cc0bccf5ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Objects/Sports/Tennis_Ball_Green.prefab using Guid(d0c00082fbae52742bbd03cc0bccf5ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f7d75528409acb1adc5ba1c2703556ca') in 0.013673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Course Library/_Prefabs/Lighting/Chandelier_Rustic.prefab
+  artifactKey: Guid(eb39e0724dfebcf41b75eeb6574fffef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Lighting/Chandelier_Rustic.prefab using Guid(eb39e0724dfebcf41b75eeb6574fffef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e2c28cb4c09413682d7dd55ef49d40a7') in 0.010457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Chair_Modern_Brown.prefab
+  artifactKey: Guid(5e80c6b19a85a0d46b1ebd9f0eb64b5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Modern_Brown.prefab using Guid(5e80c6b19a85a0d46b1ebd9f0eb64b5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '361c40b3a246b9134910dafb3bbc7cd4') in 0.012113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Course Library/_Prefabs/Mirrors/Mirror_Square_Black.prefab
+  artifactKey: Guid(c34351a5319bcd74ab5f7a2f3ef5edcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Mirrors/Mirror_Square_Black.prefab using Guid(c34351a5319bcd74ab5f7a2f3ef5edcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '049d8dffa38451f28447927181548092') in 0.018707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Sports/PingPong_Paddle_Blue.prefab
+  artifactKey: Guid(e975811922683be4a80132e54bc36b18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Objects/Sports/PingPong_Paddle_Blue.prefab using Guid(e975811922683be4a80132e54bc36b18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '57628ae210052963a7a77d3765bbb41b') in 0.014538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Course Library/_Prefabs/Hooks/Hook_Traditional.prefab
+  artifactKey: Guid(7ddd5c018cc2acd4094172e843dc019b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Hooks/Hook_Traditional.prefab using Guid(7ddd5c018cc2acd4094172e843dc019b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9a3a9e48a4a235f6d4cc71a90aaa2d3a') in 0.013519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Sports/Cricket_Bat_Green.prefab
+  artifactKey: Guid(bf9d8472e621dc14cbc8dd8dfea844f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Objects/Sports/Cricket_Bat_Green.prefab using Guid(bf9d8472e621dc14cbc8dd8dfea844f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fd60985bf405ad9f6ea057c7e9ad7797') in 0.039153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Traditional/Room_Traditional_Door.prefab
+  artifactKey: Guid(99e7416dd880d48d887970c0bd2eef2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Traditional/Room_Traditional_Door.prefab using Guid(99e7416dd880d48d887970c0bd2eef2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ef715e78cc4ae4a90f5ef0d3861baf6e') in 0.009552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Modern/Room_Modern_Panel.prefab
+  artifactKey: Guid(6f2d1921af45843f0a9af92d7b506d6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Modern/Room_Modern_Panel.prefab using Guid(6f2d1921af45843f0a9af92d7b506d6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fc732dceca450d71883aa978e01272db') in 0.011967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Modern/Room_Modern_Door.prefab
+  artifactKey: Guid(bf6f2a946433842928008e96118871b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Modern/Room_Modern_Door.prefab using Guid(bf6f2a946433842928008e96118871b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cfeb206eefbe2ffaa73f86399130c9b3') in 0.009865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Rustic/Room_Rustic_Panel.prefab
+  artifactKey: Guid(19cbdbef6702d496cb3966b2e101f29c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Rustic/Room_Rustic_Panel.prefab using Guid(19cbdbef6702d496cb3966b2e101f29c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'da74363b109611d216d1b71839b806d0') in 0.015422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Modern/Room_Modern_DoorPanel.prefab
+  artifactKey: Guid(375da8085929244faacb2c52d36b323d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Modern/Room_Modern_DoorPanel.prefab using Guid(375da8085929244faacb2c52d36b323d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2525291141f2eed3a82530bbae9f462f') in 0.009732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Rustic/Room_Rustic_Window.prefab
+  artifactKey: Guid(6b21c20b5f1ed43e981f02cf9479dff0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Rustic/Room_Rustic_Window.prefab using Guid(6b21c20b5f1ed43e981f02cf9479dff0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5188efdb16de90368e4a60971372b605') in 0.009612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Modern/Room_Modern_WindowPanel.prefab
+  artifactKey: Guid(692cb5a3367ba417095d96548dabcec7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Modern/Room_Modern_WindowPanel.prefab using Guid(692cb5a3367ba417095d96548dabcec7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8e00ebc2d1b8b050a4b1d847bdaa5003') in 0.014272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Rustic/Room_Rustic_Door.prefab
+  artifactKey: Guid(f802640d48b7d46fa96df2993c053842) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Rustic/Room_Rustic_Door.prefab using Guid(f802640d48b7d46fa96df2993c053842) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '20c274abb8300631780a6af01c8d702f') in 0.006744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Modern/Room_Modern_Floor.prefab
+  artifactKey: Guid(a53252e410a5546d6a33587a0cbd2204) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Modern/Room_Modern_Floor.prefab using Guid(a53252e410a5546d6a33587a0cbd2204) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '76baab8ab06434ae1680e83e1e8637e5') in 0.010167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Rustic/Room_Rustic_Ceiling.prefab
+  artifactKey: Guid(de869cd46251a418dad2e905d26effb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Rustic/Room_Rustic_Ceiling.prefab using Guid(de869cd46251a418dad2e905d26effb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '50ed302575789f684dfe8ddca478fcc5') in 0.031762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Rustic/Room_Rustic_Floor.prefab
+  artifactKey: Guid(5546f4d60cacc4176a3a8545480f7f25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Rustic/Room_Rustic_Floor.prefab using Guid(5546f4d60cacc4176a3a8545480f7f25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '74a545c63e96706073f1c255d14afb41') in 0.010182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Rustic.prefab
+  artifactKey: Guid(991f7faf3818ce24d854dd90bfceb80b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Rustic.prefab using Guid(991f7faf3818ce24d854dd90bfceb80b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae475f8be63359befa161cde8560656f') in 0.010043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 164
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Gray_Right.prefab
+  artifactKey: Guid(d1791b6c42f7b4091950a90dbf80c441) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Gray_Right.prefab using Guid(d1791b6c42f7b4091950a90dbf80c441) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a46fa291db9d96ea96e2a2a424507313') in 0.007024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Rustic/Room_Rustic_DoorPanel.prefab
+  artifactKey: Guid(5abfc42e15c9547b18d17506d115bb9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Rustic/Room_Rustic_DoorPanel.prefab using Guid(5abfc42e15c9547b18d17506d115bb9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0e80d1cd43895f6ba5a30fcfb7af6438') in 0.012540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Course Library/_Prefabs/Lighting/Sconce_Modern.prefab
+  artifactKey: Guid(f52e0acfc02c3124dbc1a953d4276adb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Lighting/Sconce_Modern.prefab using Guid(f52e0acfc02c3124dbc1a953d4276adb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8031c0094f3b797f3732ae1153a9f3af') in 0.008646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Modern/Room_Modern_Ceiling.prefab
+  artifactKey: Guid(3d89d97e6a6df4826875d39af54c1172) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Modern/Room_Modern_Ceiling.prefab using Guid(3d89d97e6a6df4826875d39af54c1172) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6a8e3d0445e36adbfcc984840a68d17e') in 0.012778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Blue_Left.prefab
+  artifactKey: Guid(eb91affb984e740dbb2082626ba96efb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Blue_Left.prefab using Guid(eb91affb984e740dbb2082626ba96efb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '367ee4ad38ab83fdbbf70f82fa62222e') in 0.009241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Mat_Round_Brown.prefab
+  artifactKey: Guid(fb9ce3f53babdeb4990afa0d85fd4a65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Mat_Round_Brown.prefab using Guid(fb9ce3f53babdeb4990afa0d85fd4a65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6244872dafff344670a7e6d53f91bc39') in 0.011821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Traditional/Room_Traditional_Panel.prefab
+  artifactKey: Guid(8f82d5b62133a4e829ef517a4af818b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Traditional/Room_Traditional_Panel.prefab using Guid(8f82d5b62133a4e829ef517a4af818b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd93b84e7f281b01a98e57b0ccd3bd375') in 0.014927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Traditional/Room_Traditional_Floor.prefab
+  artifactKey: Guid(46e0569259d9546089b904235580c58b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Traditional/Room_Traditional_Floor.prefab using Guid(46e0569259d9546089b904235580c58b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'de9a9881ba5c7515acac2517c214be44') in 0.015474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Traditional/Room_Traditional_Window.prefab
+  artifactKey: Guid(89c8eb4802c454b03939f4f287bf73e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Traditional/Room_Traditional_Window.prefab using Guid(89c8eb4802c454b03939f4f287bf73e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '42c2dc5bb62ed8c2aae2712657801a9a') in 0.044316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Light Sources/Lightsource_Flashlight_Blue.prefab
+  artifactKey: Guid(502b096f021ed2b4ab6f727dbd9378b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Objects/Light Sources/Lightsource_Flashlight_Blue.prefab using Guid(502b096f021ed2b4ab6f727dbd9378b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ce846ac494a3bde2829f67163ae6862d') in 0.010571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Launchers/Launcher_DartGun.prefab
+  artifactKey: Guid(c7826a319a7803941adc8f0a090f1f38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Objects/Launchers/Launcher_DartGun.prefab using Guid(c7826a319a7803941adc8f0a090f1f38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd4574e2408739bd6e0e5b77e173bfb32') in 0.009278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Traditional/Room_Traditional_Ceiling.prefab
+  artifactKey: Guid(4cab84d22ac8c42e8b8294b4ae64341c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Traditional/Room_Traditional_Ceiling.prefab using Guid(4cab84d22ac8c42e8b8294b4ae64341c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c97e4a272276c2f3acebd1faca4a68e') in 0.012678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Traditional.prefab
+  artifactKey: Guid(880db112787483b4bb85a9812586967c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Traditional.prefab using Guid(880db112787483b4bb85a9812586967c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '83fda3a08df976dfc5f69ad357afa1a6') in 0.015975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Notebooks/Notebook_Brown.prefab
+  artifactKey: Guid(0598faac6c7f62f4f92b2f771f20ca2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Objects/Notebooks/Notebook_Brown.prefab using Guid(0598faac6c7f62f4f92b2f771f20ca2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4e677b591f181f690e00b4de7a810b61') in 0.012235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Miscellaneous/Lighter_Candle_Blue.prefab
+  artifactKey: Guid(b260445a5b0da4bbba6645bba66a124f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Objects/Miscellaneous/Lighter_Candle_Blue.prefab using Guid(b260445a5b0da4bbba6645bba66a124f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'df853d7de6869be4d029b42f8e6052d3') in 0.011535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Course Library/Source Files/Models/RoomModern_Models/Room_Modern_Door.fbx
+  artifactKey: Guid(cd0725da5e217fe42b4679669fb13cc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/RoomModern_Models/Room_Modern_Door.fbx using Guid(cd0725da5e217fe42b4679669fb13cc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'faab95729cea0ec65bec3a60e1b14798') in 0.080150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Course Library/Source Files/Models/Gaming_Console.fbx
+  artifactKey: Guid(a5fa05a471024224fb0bfce2c4bafd1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Gaming_Console.fbx using Guid(a5fa05a471024224fb0bfce2c4bafd1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '51cfbe0a3a4a1e9f0e821cb876245c94') in 0.023777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Course Library/Source Files/Models/Knob_1.fbx
+  artifactKey: Guid(87163ac1ec6d0c44eb1bec5a7e23bc5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Knob_1.fbx using Guid(87163ac1ec6d0c44eb1bec5a7e23bc5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '947ce64a5ac699e60a6d4e0568bd42c3') in 0.022217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Course Library/Source Files/Models/Lightsource_Candle_B.fbx
+  artifactKey: Guid(e201a0032a480c8428237afc249cd112) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Lightsource_Candle_B.fbx using Guid(e201a0032a480c8428237afc249cd112) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '10027ae07e81e136d6f9ce970b0be0e2') in 0.026916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Course Library/_Prefabs/Art/Art_Painting_Mountain.prefab
+  artifactKey: Guid(8b55f4b13da640a458a5a4336c489584) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Art/Art_Painting_Mountain.prefab using Guid(8b55f4b13da640a458a5a4336c489584) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bc82cbb13f08edc694fd3124198c3645') in 0.013861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Course Library/Source Files/Models/Launcher_Dart.fbx
+  artifactKey: Guid(2acafd95d729d5042b127656b965d6c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Launcher_Dart.fbx using Guid(2acafd95d729d5042b127656b965d6c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5a9fade8a651d530e08bab077cd54530') in 0.040627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Modern/Room_Modern_Window.prefab
+  artifactKey: Guid(6ba738e047fbd4237a80ed2a8b8f9655) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Modern/Room_Modern_Window.prefab using Guid(6ba738e047fbd4237a80ed2a8b8f9655) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f3804b23b11b3aefd25bf8c1c4722172') in 0.010850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Sports/Tennis_Racket_Green.prefab
+  artifactKey: Guid(d6fcd67e436bca94ba8468915b91bc3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Objects/Sports/Tennis_Racket_Green.prefab using Guid(d6fcd67e436bca94ba8468915b91bc3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e84b04a39de90ff7ed564c0a697f320d') in 0.011399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Course Library/_Prefabs/Controls/Control_Button_Stop.prefab
+  artifactKey: Guid(091cd3f1c6fbcb840baf5816764a8527) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Controls/Control_Button_Stop.prefab using Guid(091cd3f1c6fbcb840baf5816764a8527) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a563608f2b5e52cbaa1aae0187ea1c46') in 0.013568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Course Library/Source Files/Models/RoomRustic_Models/Room_Rustic_Ceiling.fbx
+  artifactKey: Guid(ff65149d1469b3745b30db2962a5f11a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/RoomRustic_Models/Room_Rustic_Ceiling.fbx using Guid(ff65149d1469b3745b30db2962a5f11a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'feccde7597dcff4452be5d7c99f4577a') in 0.021760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Course Library/Source Files/Models/Hat_Captain.fbx
+  artifactKey: Guid(86dd1be66f63daf44ba9565591143535) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Hat_Captain.fbx using Guid(86dd1be66f63daf44ba9565591143535) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b003309cd6b81558fe4f9c0471fa9dab') in 0.021767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Course Library/Source Files/Models/RoomRustic_Models/Room_Rustic_Door.fbx
+  artifactKey: Guid(fb6def4110e9f5e47867742140db3077) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/RoomRustic_Models/Room_Rustic_Door.fbx using Guid(fb6def4110e9f5e47867742140db3077) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c50f3f1e77b7f4ca5076653cef2a371') in 0.045947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Course Library/Source Files/Models/Object_Phone_C.fbx
+  artifactKey: Guid(990b44c594fb5274bbf2de7afa06b8b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Object_Phone_C.fbx using Guid(990b44c594fb5274bbf2de7afa06b8b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9f042b50d915f9fa9e2d0a6d2b481273') in 0.022810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Course Library/Source Files/Models/Lever_2.FBX
+  artifactKey: Guid(0dfd06b0bf511764ead40699e7fd035a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Lever_2.FBX using Guid(0dfd06b0bf511764ead40699e7fd035a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '68a7f50c37680585a0bb83dbd95d896a') in 0.020947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Course Library/Source Files/Models/Rug_Oval_2.fbx
+  artifactKey: Guid(9489287415015c24b9f6cb9dfbc0cfb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Rug_Oval_2.fbx using Guid(9489287415015c24b9f6cb9dfbc0cfb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4eacd61a36c08575aa52c7c7f25ab9ef') in 0.020840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Course Library/Source Files/Models/Fireplace_Rustic_Log5.FBX
+  artifactKey: Guid(0c554a38aeb50d94b8b850dcde58a455) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Fireplace_Rustic_Log5.FBX using Guid(0c554a38aeb50d94b8b850dcde58a455) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '55e83dabcc2f99162de47b2b6a36a9de') in 0.055533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Speakers/Speaker_Boombox.prefab
+  artifactKey: Guid(b1537290f47c63744ac10546e5a71f18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Objects/Speakers/Speaker_Boombox.prefab using Guid(b1537290f47c63744ac10546e5a71f18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '626ab5ea1df391a8acd78e166f804c14') in 0.011489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Rustic/Room_Rustic_WindowPanel.prefab
+  artifactKey: Guid(c004ccfcbe2704a8a8a1f303c488377b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Rustic/Room_Rustic_WindowPanel.prefab using Guid(c004ccfcbe2704a8a8a1f303c488377b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0d002224c7ed2306409bbdb524b9fce1') in 0.016535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Course Library/Source Files/Models/Joystick_1.fbx
+  artifactKey: Guid(555e7d4cf3ee70344a01ecaeae005ccb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Joystick_1.fbx using Guid(555e7d4cf3ee70344a01ecaeae005ccb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '05e6447f67cd656573a410cd9e1f1754') in 0.023833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Course Library/Source Files/Models/Object_Notebook_C.fbx
+  artifactKey: Guid(fb1cb1c8e9755c54690de96e0f076dfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Object_Notebook_C.fbx using Guid(fb1cb1c8e9755c54690de96e0f076dfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '086e154e4f9052f8b6a1a4161610007d') in 0.042417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Course Library/_Prefabs/Art/Art_Painting_Birds.prefab
+  artifactKey: Guid(2cdc705002a6a784580137dd120e64e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Art/Art_Painting_Birds.prefab using Guid(2cdc705002a6a784580137dd120e64e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1038ca627af019d1f6ed8e71eeae4e8e') in 0.014011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Course Library/_Prefabs/Mirrors/Mirror_Square_Brown.prefab
+  artifactKey: Guid(ab8bc30cac3fdea4ebb6fed84ac46cbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Mirrors/Mirror_Square_Brown.prefab using Guid(ab8bc30cac3fdea4ebb6fed84ac46cbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e7f6efc8b0d8ec86ca5999ec138a24eb') in 0.014631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Course Library/Source Files/Models/Object_Book_A_3.fbx
+  artifactKey: Guid(3e4463212d2a65946b952bb19ffd6030) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Object_Book_A_3.fbx using Guid(3e4463212d2a65946b952bb19ffd6030) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f182ac46b9646d2f793ec0eed85393a5') in 0.026912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Course Library/Source Files/Models/Object_Book_C_1.fbx
+  artifactKey: Guid(ffdab3e0f7bc6fb469e90954fd0494de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Object_Book_C_1.fbx using Guid(ffdab3e0f7bc6fb469e90954fd0494de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0432d4fe6bec622fbdc6d957465c14f2') in 0.025994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Course Library/Source Files/Textures/Icon_Close.png
+  artifactKey: Guid(811cf8ccf45f8c4439f6c52f9c345fcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Textures/Icon_Close.png using Guid(811cf8ccf45f8c4439f6c52f9c345fcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1a441b07c8932cd97c2b361805ea0ab3') in 0.097998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Traditional/Room_Traditional_WindowPanel.prefab
+  artifactKey: Guid(bf67c7034bcc14a1c8c0f0d889e29981) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Components/Room_Traditional/Room_Traditional_WindowPanel.prefab using Guid(bf67c7034bcc14a1c8c0f0d889e29981) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '53ba894cf318a190cfc823d0d9bd84c8') in 0.020857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Course Library/Source Files/Models/Lightsource_Flashlight_B.fbx
+  artifactKey: Guid(8cf70768566c78c49858ce5ac149a07d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Lightsource_Flashlight_B.fbx using Guid(8cf70768566c78c49858ce5ac149a07d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a5b89df58b7dcfed8185e0524c7856fb') in 0.027785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Course Library/Source Files/Textures/Mirror_Texture_Black.renderTexture
+  artifactKey: Guid(5c66ef5a44f9143fea4b30a1fabe8fbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Textures/Mirror_Texture_Black.renderTexture using Guid(5c66ef5a44f9143fea4b30a1fabe8fbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd30e981a988a804c2d66902c698bffbf') in 0.017276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Course Library/Source Files/Models/Couch_Rustic_C.fbx
+  artifactKey: Guid(4820b69fdc07d56429ed65fb7c6ffb22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Couch_Rustic_C.fbx using Guid(4820b69fdc07d56429ed65fb7c6ffb22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c8ccf19664a0da06609fe0f6ccb743b') in 0.047568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Hats/Hat_Witch_Blue.prefab
+  artifactKey: Guid(364b4f12314d0fb4ea2870ddcc2f1842) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Objects/Hats/Hat_Witch_Blue.prefab using Guid(364b4f12314d0fb4ea2870ddcc2f1842) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c5b3effe627a0468d1ff856cbd841a4b') in 0.012216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Course Library/Scripts/Actions/PlayAnimation.cs
+  artifactKey: Guid(9b7cac9eabe62344f8642d99e2cf7ae9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Scripts/Actions/PlayAnimation.cs using Guid(9b7cac9eabe62344f8642d99e2cf7ae9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a131689f994ccc2c6b2705c27af3d76a') in 0.009183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Course Library/Source Files/Models/Launcher_DartGun.fbx
+  artifactKey: Guid(49344d184707a6d488a27aa72f9df271) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Launcher_DartGun.fbx using Guid(49344d184707a6d488a27aa72f9df271) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '99625297c8c1e689e42a940846973c0b') in 0.021027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Course Library/_Prefabs/Environments/Foreground_Buildings.prefab
+  artifactKey: Guid(4eb9381a0b4804063a96dd9b29e1e57c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Environments/Foreground_Buildings.prefab using Guid(4eb9381a0b4804063a96dd9b29e1e57c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8d7fd020f4f8d243ca7f33bc28b7a354') in 0.040304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Course Library/Source Files/Models/Plant_Snake.fbx
+  artifactKey: Guid(fe0f3b6d90cb7de4c8d4741bf31c5a6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Plant_Snake.fbx using Guid(fe0f3b6d90cb7de4c8d4741bf31c5a6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '339bcae656671998760ec5643a90fa1b') in 0.025401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Rug_Oval_Blue.prefab
+  artifactKey: Guid(51c07d60274ac13489e2a61ff62c251b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Rug_Oval_Blue.prefab using Guid(51c07d60274ac13489e2a61ff62c251b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a397e981e654819ac59337868d26f139') in 0.012576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/_Course Library/Scripts/Actions/ToggleVisibility.cs
+  artifactKey: Guid(064216bc04beaca4fab9a6b5d9bca977) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Scripts/Actions/ToggleVisibility.cs using Guid(064216bc04beaca4fab9a6b5d9bca977) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a971c342497857f7385418b199c3bc18') in 0.007194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Course Library/Source Files/Models/Object_Book_B_1.fbx
+  artifactKey: Guid(533176dd80e21d149b003182cfaf7a21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Object_Book_B_1.fbx using Guid(533176dd80e21d149b003182cfaf7a21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5005e63f51940d7ada816738228ec816') in 0.044878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.006505 seconds.
+  path: Assets/_Course Library/Source Files/Models/RoomModern_Models/Room_Modern_Window.fbx
+  artifactKey: Guid(1f8f4dd08a8e1c346a29c4ea114b20b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/RoomModern_Models/Room_Modern_Window.fbx using Guid(1f8f4dd08a8e1c346a29c4ea114b20b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c26fcd8560dd00cd7dcc10bf3ace5b3') in 0.024378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Course Library/_Prefabs/Controls/Control_Button_Pause.prefab
+  artifactKey: Guid(f23518a35037252409252c1ade394e8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Controls/Control_Button_Pause.prefab using Guid(f23518a35037252409252c1ade394e8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7defd56344de6c96b79386a6e6b73e5b') in 0.012121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Mat_Rect_Green.prefab
+  artifactKey: Guid(65e1b17be55fde04f921004e190ce003) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Mat_Rect_Green.prefab using Guid(65e1b17be55fde04f921004e190ce003) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd13cb41b8505998ca4843ba78b17a2c9') in 0.012960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Sphere.prefab
+  artifactKey: Guid(94722d2f12fff44dc9f81e18afb2f945) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Sphere.prefab using Guid(94722d2f12fff44dc9f81e18afb2f945) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '90eebd9d0a483f515950c3cad84fde69') in 0.007818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Course Library/Scripts/Actions/PlayQuickSound.cs
+  artifactKey: Guid(0755a2ba17a31d643b4a27e3034d8a79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Scripts/Actions/PlayQuickSound.cs using Guid(0755a2ba17a31d643b4a27e3034d8a79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f64a1e1e352e445a336e04fcc7aa471') in 0.008443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_Course Library/Materials/Solid Colors/Orange.mat
+  artifactKey: Guid(a4b38064cb4316748914ac9f56485649) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Materials/Solid Colors/Orange.mat using Guid(a4b38064cb4316748914ac9f56485649) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d0974fd223784d7c34d8b5cc6086bf3') in 0.008162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Course Library/Source Files/Models/Hat_Captain_B.fbx
+  artifactKey: Guid(3ba68e88150d5894ab9f81fd605819d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Hat_Captain_B.fbx using Guid(3ba68e88150d5894ab9f81fd605819d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '73b07ef6e1c391de8f4151160a5a942a') in 0.040125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Sports/Tennis_Ball_BlueRed.prefab
+  artifactKey: Guid(fa28b352862d5cd4bb3513f56942579a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Objects/Sports/Tennis_Ball_BlueRed.prefab using Guid(fa28b352862d5cd4bb3513f56942579a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0b15b4d910d8de7305a5c47e890735e1') in 0.011078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Course Library/Source Files/Models/Mirror_A_1.fbx
+  artifactKey: Guid(61988a48f5676b04d9c3c7a71e21d67f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Mirror_A_1.fbx using Guid(61988a48f5676b04d9c3c7a71e21d67f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '09908ca66628add851c418aab2b63d1f') in 0.017045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 5.031470 seconds.
+  path: Assets/_Course Library/Materials/Solid Colors/Transparent.mat
+  artifactKey: Guid(69b788286d4f1f6438211fdf47ad2f97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Materials/Solid Colors/Transparent.mat using Guid(69b788286d4f1f6438211fdf47ad2f97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f6c236c88501fa6e610c27611c38a0a6') in 0.009105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Course Library/Source Files/Models/RoomTraditional_Models/Room_Traditional_Panel.fbx
+  artifactKey: Guid(96d3edabfe93f994d9be3598105777bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/RoomTraditional_Models/Room_Traditional_Panel.fbx using Guid(96d3edabfe93f994d9be3598105777bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '90a850fe6853b27b243a56e72451b9d8') in 0.021828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Launchers/Projectile_Dart.prefab
+  artifactKey: Guid(4974b2795b7628f4c878a49beb275e6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Objects/Launchers/Projectile_Dart.prefab using Guid(4974b2795b7628f4c878a49beb275e6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f73e5e96a5765c0deea84cc8c38a7057') in 0.010533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Blue_Right.prefab
+  artifactKey: Guid(a2e8ee2005c074447b929af42b7f5068) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Blue_Right.prefab using Guid(a2e8ee2005c074447b929af42b7f5068) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f0ba07eaba84c4c4988ff5265047806') in 0.007682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Course Library/_Prefabs/Lighting/Lamp_Table_Blue.prefab
+  artifactKey: Guid(1acee1ebf7d3fa747afaa7a2ae044238) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Lighting/Lamp_Table_Blue.prefab using Guid(1acee1ebf7d3fa747afaa7a2ae044238) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8223ffafe915ca82e280cafa4747087b') in 0.008937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Course Library/Source Files/Models/RoomModern_Models/Room_Modern_Ceiling.fbx
+  artifactKey: Guid(a75d353809d8fd14ab9a00b22fb37d36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/RoomModern_Models/Room_Modern_Ceiling.fbx using Guid(a75d353809d8fd14ab9a00b22fb37d36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4436182b30953c6e156a8ca063949bea') in 0.042702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/_Course Library/Source Files/Models/Container_Can_2.fbx
+  artifactKey: Guid(9cf35a23e469e7c40b91e31271349ad5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Container_Can_2.fbx using Guid(9cf35a23e469e7c40b91e31271349ad5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '02cde13002777507231f943b9265f438') in 0.021956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Course Library/Source Files/Models/Chest_Modern.fbx
+  artifactKey: Guid(59f9d2be05e0a774899ba14b1f7a1203) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Chest_Modern.fbx using Guid(59f9d2be05e0a774899ba14b1f7a1203) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '315a52eb695ebe82b8fe93588cd726b4') in 0.024036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Course Library/Source Files/Models/RoomTraditional_Models/Room_Traditional_All.fbx
+  artifactKey: Guid(215119b6893ae7d4b890c9acaa834b89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/RoomTraditional_Models/Room_Traditional_All.fbx using Guid(215119b6893ae7d4b890c9acaa834b89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '53a397f3708aff9fe08fc6100ba03b6d') in 0.023655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Speakers/Speaker_RecordPlayer_Gray.prefab
+  artifactKey: Guid(210506ff450b7c448922566ff5280b49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Objects/Speakers/Speaker_RecordPlayer_Gray.prefab using Guid(210506ff450b7c448922566ff5280b49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ab3f843395b0631b6f57982ac5ffdd9d') in 0.007549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_Course Library/Source Files/Models/Bin_A_1.fbx
+  artifactKey: Guid(f2110f23f107b174186bdcb3d376b30c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Bin_A_1.fbx using Guid(f2110f23f107b174186bdcb3d376b30c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5ba800ef6f22f8745c41560dc6392333') in 0.041568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Course Library/Source Files/Models/Slider_1.fbx
+  artifactKey: Guid(2e68c8d1a02debb4d8c26e384e21498a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Slider_1.fbx using Guid(2e68c8d1a02debb4d8c26e384e21498a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0fd3268309ed14b019d0d17b6602979d') in 0.018977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Course Library/Source Files/Models/RoomTraditional_Models/Room_Traditional_Door.fbx
+  artifactKey: Guid(2f22d1a46ab261a4d9621f746d3a536c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/RoomTraditional_Models/Room_Traditional_Door.fbx using Guid(2f22d1a46ab261a4d9621f746d3a536c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b8e662c9489cba13ce5b7232f935bc07') in 0.018543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Course Library/Scripts/Conditions/OnTrigger.cs
+  artifactKey: Guid(59fe722e016ecae438f59fbf21af3ecf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Scripts/Conditions/OnTrigger.cs using Guid(59fe722e016ecae438f59fbf21af3ecf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a878f074ba5d8447f10495c5a47d80e7') in 0.006407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Course Library/Source Files/Models/RoomRustic_Models/Room_Rustic_Panel.fbx
+  artifactKey: Guid(fdd8fb57e3ed46a4fb0d8e2fab861bb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/RoomRustic_Models/Room_Rustic_Panel.fbx using Guid(fdd8fb57e3ed46a4fb0d8e2fab861bb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d775c7a14f71c6194c46c5340b9e800') in 0.033834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Course Library/Source Files/Models/Lamp_Wall_2.fbx
+  artifactKey: Guid(15cd8819c9f72a845acf8ccb7487b837) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Lamp_Wall_2.fbx using Guid(15cd8819c9f72a845acf8ccb7487b837) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0a4a87d5294e0d28ad8e8b563cf2dff9') in 0.017727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Course Library/Source Files/Models/Cabinet_Modern_B.fbx
+  artifactKey: Guid(332ad90e44467c44a81dea0f29d07765) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Cabinet_Modern_B.fbx using Guid(332ad90e44467c44a81dea0f29d07765) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '416013dced015c33f5b1caed672bd77b') in 0.023280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Course Library/Source Files/Models/Sports_Cricket_Bat_B.fbx
+  artifactKey: Guid(163336123a8366e468095f7c5efe0a33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Sports_Cricket_Bat_B.fbx using Guid(163336123a8366e468095f7c5efe0a33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b9f63b429a3b8c3381aa5c1377f0bd8a') in 0.017131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Course Library/Scripts/Actions/ConvertValueToHue.cs
+  artifactKey: Guid(c008fa0317c73744fa9f4b940d3fd035) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Scripts/Actions/ConvertValueToHue.cs using Guid(c008fa0317c73744fa9f4b940d3fd035) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8132ba678f4f8b787ba3caa8ca213706') in 0.006718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Course Library/Scripts/Actions/SetVolume.cs
+  artifactKey: Guid(f4d41df5beb315c43a4734c560cad404) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Scripts/Actions/SetVolume.cs using Guid(f4d41df5beb315c43a4734c560cad404) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd7ad10d23b087652644967bd8b42af5e') in 0.007068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Course Library/Source Files/Models/Ball_Tennis.fbx
+  artifactKey: Guid(d6b5780a9f86954498a6a8eb9db39df5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Ball_Tennis.fbx using Guid(d6b5780a9f86954498a6a8eb9db39df5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '526296b7e4f7c99f966d4a21fa9bb180') in 0.044404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Course Library/Source Files/Models/Chair_Modern.fbx
+  artifactKey: Guid(54de80ef7ba578842b2dbc6098b94a74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Chair_Modern.fbx using Guid(54de80ef7ba578842b2dbc6098b94a74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '18d0af6c4a8000aad9b3ef4edd7c91e5') in 0.021569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Course Library/Source Files/Models/Object_Tablet_B.fbx
+  artifactKey: Guid(d0736963586b9ef4ab90c4c632f18739) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Object_Tablet_B.fbx using Guid(d0736963586b9ef4ab90c4c632f18739) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '99c8bc7f0cb1af9a859322e7dab99750') in 0.019771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Modern.prefab
+  artifactKey: Guid(d9470993b9bd0a541a884d6f6704a421) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Modern.prefab using Guid(d9470993b9bd0a541a884d6f6704a421) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '06b907a244b8458f25873d77efb3eb01') in 0.010059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Course Library/Source Files/Models/Speaker_Boombox.fbx
+  artifactKey: Guid(b0befbd5b40c17d4c90a8db749239bb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/Source Files/Models/Speaker_Boombox.fbx using Guid(b0befbd5b40c17d4c90a8db749239bb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cc13dc1b63edf343a03f046bad7f536b') in 0.021206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Course Library/_Prefabs/Art/Art_Painting_Swan.prefab
+  artifactKey: Guid(a3e93e0121486e340ac0796260e744ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Art/Art_Painting_Swan.prefab using Guid(a3e93e0121486e340ac0796260e744ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f6373663947ccfab075432d5a909f168') in 0.011437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Course Library/_Prefabs/Environments/Background_Buildings.prefab
+  artifactKey: Guid(4e12f80178b8d6e47a7b602b9e2f58fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Course Library/_Prefabs/Environments/Background_Buildings.prefab using Guid(4e12f80178b8d6e47a7b602b9e2f58fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3391fc40b8c1cd070240fa4e0d981aae') in 0.027640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.853 seconds
+Refreshing native plugins compatible for Editor in 28.94 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.1.1\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x00084] in .\Library\PackageCache\com.unity.xr.oculus@4.1.1\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7aeb7d7a52d04045b8a1c734633fa931>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.601 seconds
+Domain Reload Profiling: 3441ms
+	BeginReloadAssembly (254ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (92ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (483ms)
+		LoadAssemblies (483ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (45ms)
+				TypeCache.ScanAssembly (30ms)
+			ScanForSourceGeneratedMonoScriptInfo (38ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (2602ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (951ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (685ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 27.72 ms, found 10 plugins.
+Preloading 3 native plugins for Editor in 0.26 ms.
+Unloading 7395 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 198 unused Assets / (99.6 KB). Loaded Objects now: 8084.
+Memory consumption went from 247.9 MB to 247.8 MB.
+Total: 10.534700 ms (FindLiveObjects: 0.731200 ms CreateObjectMapping: 0.781800 ms MarkObjects: 8.749500 ms  DeleteObjects: 0.271400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 176.249387 seconds.
+  path: Packages/com.meta.xr.sdk.platform/package.json
+  artifactKey: Guid(884417fca7db3a019cd4bbbe4f5e3c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.platform/package.json using Guid(884417fca7db3a019cd4bbbe4f5e3c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cedd24610e9ac7544534fef968acd41') in 0.027755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 154.450914 seconds.
+  path: Packages/com.meta.xr.sdk.core/package.json
+  artifactKey: Guid(aa8e20b4473d3467909d6e4c92a915c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/package.json using Guid(aa8e20b4473d3467909d6e4c92a915c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc38728449a4508a268a11310a8e8080') in 0.001675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.258967 seconds.
+  path: Packages/com.meta.xr.sdk.core/Textures/color_ramp_timer.tga
+  artifactKey: Guid(8929c8bc5148a624b8c9d6df0ee6f0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Textures/color_ramp_timer.tga using Guid(8929c8bc5148a624b8c9d6df0ee6f0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cc5826bac9a3754ffe6a8fba906351') in 0.058514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.meta.xr.sdk.core/Textures/SelfieImage.renderTexture
+  artifactKey: Guid(57e76b1057d5b458badbc9979747256e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Textures/SelfieImage.renderTexture using Guid(57e76b1057d5b458badbc9979747256e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ae85f8318116829547665a5234e07d') in 0.020736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.meta.xr.sdk.core/Textures/handle.png
+  artifactKey: Guid(ce8f78b2b9292484e97f36ad9568fc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Textures/handle.png using Guid(ce8f78b2b9292484e97f36ad9568fc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a817480fcaa27ad1ec7482be41b0d334') in 0.040488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.meta.xr.sdk.core/Textures/gaze_cursor.png
+  artifactKey: Guid(077028084dceb584798dade6c58d1978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Textures/gaze_cursor.png using Guid(077028084dceb584798dade6c58d1978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab8e08542af83b63f6a9efd235a8199') in 0.024351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.131161 seconds.
+  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/ShaderVariablesFunctions.hlsl
+  artifactKey: Guid(a8db2eae5ac4548a683f17e8c528c05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/ShaderVariablesFunctions.hlsl using Guid(a8db2eae5ac4548a683f17e8c528c05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8818fbe4c20205b9d340c6f1e1ccc03f') in 0.001194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004601 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/ShaderLibrary/ShaderVariablesFunctions.deprecated.hlsl
+  artifactKey: Guid(bfc4f24aa6eda10499234c714f82c6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/ShaderLibrary/ShaderVariablesFunctions.deprecated.hlsl using Guid(bfc4f24aa6eda10499234c714f82c6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8ee79d7a7ea93d29b01be55255948c') in 0.001034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
